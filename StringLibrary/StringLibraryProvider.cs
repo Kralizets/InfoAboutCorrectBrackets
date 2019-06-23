@@ -27,7 +27,7 @@ namespace StringLibrary
             [3] = '}'
         };
 
-        public static bool GetInfoAbouthCorrectBrackets(string str)
+        public static bool GetInfoAboutCorrectBrackets(string str)
         {
             if (str.Length < 2 || str.Length % 2 != 0 || _endBrackets.Any(x => x.Value == str[0]))
             {
